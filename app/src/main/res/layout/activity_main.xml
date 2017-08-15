@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorBlack"
+    tools:context="com.example.aaron.services.MainActivity">
+
+
+    <Button
+        android:text="Start Normal Service"
+        android:background="@color/neonGreen"
+        android:onClick="startService"
+        android:id="@+id/btnStartNormalService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start REPO Intent Service"
+        android:background="@color/neonGreen"
+        android:onClick="startService"
+        android:id="@+id/btnStartIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Start PROFILE Intent Service"
+        android:onClick="startService"
+        android:background="@color/neonGreen"
+        android:id="@+id/btnStartIntentServicePro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Stop Normal Service"
+        android:onClick="startService"
+        android:background="@color/neonGreen"
+        android:id="@+id/btnStopNormalService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Bind Service"
+        android:onClick="startService"
+        android:background="@color/neonGreen"
+        android:id="@+id/btnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Unbind Service"
+        android:background="@color/neonGreen"
+        android:onClick="startService"
+        android:id="@+id/btnUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Next Activity"
+        android:background="@color/neonGreen"
+        android:onClick="startService"
+        android:id="@+id/btnGotoNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
